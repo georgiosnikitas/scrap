@@ -16,7 +16,7 @@ public class AppTest {
     @Test
     public void test_Age() {
         System.out.println("Testing person's age");
-        Integer int1=12;
+        Integer int1=14;
         try {
         int age = new Person("Clark", "Ken", LocalDate.of(2011,10,26)).getAge();
             assertEquals(Integer.valueOf(age), int1);

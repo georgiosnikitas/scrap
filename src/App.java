@@ -6,7 +6,7 @@ public class App {
         System.out.println("Hello, World!");
 
         Person p1 = new Person("Chuck", "Norris", LocalDate.of(1968,10,26));
-             System.out.println("I am "+p1.getFirstname()+", "+p1.getFirstname()+" "+p1.getLastname());
+             System.out.println("I am "+p1.getFirstname()+", "+p1.getLastname());
 
         try {
             System.out.println("... and I am "+p1.getAge()+" years old");

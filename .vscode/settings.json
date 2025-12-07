@@ -4,7 +4,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "main"
-    ]
+    "sonarlint.connectedMode.project": {
+        "connectionId": "georgiosnikitas",
+        "projectKey": "georgiosnikitas_scrap"
+    }
 }
